@@ -5,8 +5,8 @@ BMR for Women = 655.1 + (9.563 * weight [kg]) + (1.85 * size [cm]) − (4.676 * 
 '''
 gender = input("Enter male or Female\n")
 if gender.upper() == 'MALE' :
-    age = int(input("Enter Your age in years\n"))
-    weight = int(input("Enter Your weight in KG\n"))
+    age = float(input("Enter Your age in years\n"))
+    weight = float(input("Enter Your weight in KG\n"))
     height_in_feet = float(input("Enter Your height in feet\n"))
     # converting height in cm
     height_in_cm = height_in_feet/0.032808
