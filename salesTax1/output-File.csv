@@ -1,0 +1,9 @@
+Product-Name,Product-CostPrice,Product-SalesTax,Product-SalesTaxAmount,Product-FinalPrice,Country
+Notebook,100,20,20.0,120.0,India
+Diary,150,25,37.5,187.5,America
+Paper Roll,30,60,18.0,48.0,Pakistan
+Craft paper,20,25,5.0,25.0,Bhutan
+Tissue Paper,35,27,9.450000000000001,44.45,Cuba
+Cardboard,50,30,15.0,65.0,Nepal
+Papersheets,10,80,8.0,18.0,China
+Envelope,70,35,24.5,94.5,Australia
