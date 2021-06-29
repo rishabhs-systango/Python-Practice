@@ -1,0 +1,8 @@
+Product-Name,Product-CostPrice,Product-SalesTax,Product-SalesTaxAmount,Product-FinalPrice,Country
+Notebook,150,25,37.5,187.5,China
+PaperRoll,100,20,20.0,120.0,Australia
+Tissue paper,70,40,28.0,98.0,Austria
+Pen,25,10,2.5,27.5,India
+Stamp,100,30,30.0,130.0,Brazil
+NewsPaper,20,25,5.0,25.0,India
+Diary,250,35,87.5,337.5,China
