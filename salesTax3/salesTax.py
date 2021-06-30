@@ -20,8 +20,8 @@ class SalesTax :
                     list_output.append("Input not Proper\n")
                     raise Exception (f"Input in line {i+1} shoud be filled Properly for each columnn")
                 else :
-                    # checking is costrPrice and sales tax are number or not
-                    if len(list_by_values) == 4 and list_by_values[2].isdigit() and list_by_values[1].isdigit() :
+                    # checking is costrPrice and salestax are int or float number or not
+                    if ( list_by_values[2].isdigit() or list_by_values[2].replace('.', '', 1).isdigit()) and ( list_by_values[1].isdigit() or list_by_values[1].replace('.', '', 1).isdigit()) :
                         salesTax = float(list_by_values[2])
                         salesTaxAmount = (salesTax/100)*float(list_by_values[1])
                         FinalPrice = float(list_by_values[1])+salesTaxAmount
@@ -31,10 +31,10 @@ class SalesTax :
                         list_output.append(str)
                     else :
                         list_output.append("Input not Proper\n")
-                        raise Exception(f"Input in line {i+1}  is not Proper costprice,salesTax should be number")
+                        raise Exception(f"Input in line {i+1}  is not Proper costprice,salesTax should be Probper int or float number")
             except Exception as obj :
                 print(obj)
             i = i + 1
-        # calling write output method to write in output file    
+        # calling write output method fom output module to write in output file    
         outputObj = Output()
         outputObj.writeOutput(list_output)
